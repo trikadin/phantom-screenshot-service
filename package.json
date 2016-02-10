@@ -4,6 +4,7 @@
   "description": "Make screenshots using phantomjs",
   "main": "index.js",
   "scripts": {
+    "postinstall": "gulp build -w off",
     "start": "phantomjs ./build/app.js"
   },
   "author": "trikadin@mail.ru",
