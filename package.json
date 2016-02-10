@@ -1,0 +1,46 @@
+{
+  "name": "phantom-screenshot-service",
+  "version": "0.1.0",
+  "description": "Make screenshots using phantomjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "phantomjs ./build/app.js"
+  },
+  "author": "trikadin@mail.ru",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^3.5.3",
+    "async": "^1.5.2",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-flow-strip-types": "^6.5.0",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "collection.js": "^5.5.6",
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-bump": "^1.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.5",
+    "okay": "^1.0.0",
+    "phantomjs-prebuilt": "^2.1.4",
+    "qs": "^6.1.0",
+    "semver": "^5.1.0",
+    "sugar": "^1.4.1",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "jscs": "^2.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trikadin/phantom-screenshot-service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/trikadin/phantom-screenshot-service/issues"
+  },
+  "homepage": "https://github.com/trikadin/phantom-screenshot-service#readme"
+}
